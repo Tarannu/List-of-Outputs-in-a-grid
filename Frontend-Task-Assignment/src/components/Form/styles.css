@@ -1,0 +1,70 @@
+/*custom font*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+@forn-face{
+    font-family: customFont;
+    src: url(https://fonts.googleapis.com/css?family=Montserrat);
+}
+body{
+    font-family:customFont;
+    
+    line-height:1.6;
+    text-align: center;
+}
+/* Inside the form */
+.form-body{
+    position:relative;
+    height:350px;
+}
+.form-body h2{
+    
+}
+.form-body h3{
+    color:rgba(0,0,0,0.5);
+    font-size:12px;
+    color:grey;
+}
+.form-body input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+.form-body textarea{
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline:none;
+
+}
+
+.form-body input{
+    outline:none
+}
+.form-input{
+    margin: 10px 0;
+}
+
+.form-fields{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    
+}
+.btn{
+    background-color: #45a049;
+    display:inline-block;
+    padding:10px 30px;
+    cursor: pointer;
+    border-radius:5px;
+    border:none;
+    color: white;
+    align-content: center;
+}
