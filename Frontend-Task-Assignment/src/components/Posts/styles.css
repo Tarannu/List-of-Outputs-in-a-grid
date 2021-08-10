@@ -3,9 +3,16 @@ ul{
     
 }
 li{
+    margin:5px;
     background-color:#fff;
     border-radius:3px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.5);
     padding: 20px;
-    margin:10px;
+    text-align: left;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
 }

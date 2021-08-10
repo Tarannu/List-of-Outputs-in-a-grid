@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react'
 import './MainBody.css'
 import Posts from '../Posts/Posts.js'
 import Form from '../Form/Form.js'
+import {createStore} from 'redux'
 
 function MainBody() {
     const [listObjects,setlistObjects] = useState([{}]);

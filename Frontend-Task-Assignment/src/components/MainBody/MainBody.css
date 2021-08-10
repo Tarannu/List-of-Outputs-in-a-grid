@@ -5,17 +5,4 @@
     gap:30px;
   }
   
-  /* grid of the form */
-  .gridForm{
-    background-color:#fff;
-    border-radius:3px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
-    padding: 20px;
-    margin:10px;
-    overflow:visible;
-  }
-  
-  /* grid of the post */
-  .gridPost{
-    
-  }
+ 
